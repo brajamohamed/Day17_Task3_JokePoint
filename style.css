@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: purple;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: blue;
+  text-align: center;
+}
+.container {
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+.container > div {
+  margin-top: 20px;
+}
+#outputDiv {
+  height: 150px;
+  margin: 10px;
+  background-color: aliceblue;
+  border: 2px solid;
+  border-radius: 10px;
+  pointer-events: none;
+  overflow: auto;
+}
+#jokeList {
+  list-style-type: none;
+  margin-left: 10px;
+}
+#emoji {
+  visibility: hidden;
+  width: 100px;
+}
